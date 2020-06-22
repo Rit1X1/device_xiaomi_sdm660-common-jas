@@ -71,6 +71,9 @@ persist.radio.data_con_rprt=1
 # Rendering
 persist.hwc.ptor.enable=true
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # SELinux
 ro.build.selinux=1
 
