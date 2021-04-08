@@ -211,6 +211,10 @@ on boot
     chown system system /sys/class/sensors/apds9930-proximity/enable
     chown system system /sys/class/sensors/apds9930-proximity/poll_delay
 
+    #Smart Charging Support
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspen
+
     # Create directory used for display
     # for backward compatibility
     mkdir /persist/display 0770 system graphics
